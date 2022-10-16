@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muse Yusuf Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Using BEM - Block, Element, Modifier-->
+    <!--
+      Block - 
+      Encapsulates a standalone
+      entity that is meaningful on its own.
+
+      Element
+      Parts of a block and have no standalone meaning.
+      Any element is semantically tied to its block.
+
+       Modifier
+      Flags on blocks or elements.
+      Use them to change appearance, behavior or state.
+    -->
+    <header>
+      <!-- navbar -->
+
+      <nav>
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link">Home</a></li>
+          <li>
+            <a href="#resume" class="nav__link">Resume</a>
+          </li>
+          <li>
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav__link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro -->
+
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Muse Yusuf</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Full-Stack developer
+      </p>
+      <img src="img/me.jpg" alt="a vacation pic of me" class="intro__img" />
+    </section>
+
+    <!-- Resume -->
+
+    <section class="my-resume" id="resume">
+      <h2 class="section__title section__title--resume">Resume</h2>
+      <div class="resumes">
+        <div class="resume">
+          <h3>Delicato Bakverk AB</h3>
+          <p>
+            Started as a baker with high demand on production, being able to
+            deal with stressfull situation and focus on quality.<br />
+            Currently I'm the bakery's evening manager, taking care of the
+            orders, the planning, the on-bobard of new personnel and having part
+            in the the recruitment process.
+          </p>
+        </div>
+
+        <!-- / Education -->
+
+        <div class="resume">
+          <h3>
+            B.SC in Business Adminstration and economics 2019-2022, Sodertorn
+            University
+          </h3>
+          <p>
+            Economics and Business, Bachelor's programme Specialisation
+            Economics.
+          </p>
+        </div>
+
+        <!-- / Voluntary -->
+
+        <div class="resume">
+          <h3>Ledership or Voluntary Work, Nacka Enskilda Gymnaslium 2013</h3>
+          <p>
+            Chairman of the student council in Nacka Enskilda Gymnasium (High
+            School)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About me -->
+
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Muay Thai fighter & developer based out of Stockholm, Sweden
+      </p>
+
+      <div class="about-me__text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <img
+        src="img/Hello.PNG"
+        alt="A wedding picture of me"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- Portfolio -->
+
+    <section class="my-portfolio" id="portfolio">
+      <h2 class="section__title section__title--portfolio">My Portfolio</h2>
+      <p class="section__subtitle section__subtitle--portfolio">
+        A Small selection of my portfolio
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img
+            src="img/portfolio-01.jpg"
+            alt="Responsive grid using grid-areas"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 02 -->
+
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img
+            src="img/portfolio-02.jpg"
+            alt="A small Profile card by Using Flexbox-items"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 03 -->
+
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer" id="contact">
+      <a href="mailto:muse.yusuf@chasacademy.se" class="footer__link"
+        >muse.yusuf@chasacademy.se</a
+      >
+      <!--- social links --->
+
+      <ul class="social-list">
+        <li>
+          <a
+            class="social-list__link"
+            href="http://facebook.com"
+            target="_blank"
+          >
+            <i class="devicon-facebook-plain"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            class="social-list__link"
+            href="https://twitter.com"
+            target="_blank"
+          >
+            <i class="devicon-twitter-original"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            class="social-list__link"
+            href="https://slack.com/"
+            target="_blank"
+          >
+            <i class="devicon-slack-plain"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            class="social-list__link"
+            href="https://github.com"
+            target="_blank"
+          >
+            <i class="devicon-github-original"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
