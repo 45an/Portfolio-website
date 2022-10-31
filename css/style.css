@@ -1,7 +1,6 @@
-*{
+* {
   box-sizing: border-box;
 }
-
 
 :root {
   --ff-primary: "Noto Sans", serif;
@@ -31,7 +30,6 @@
     --fs-body: 1rem;
   }
 }
-
 
 html {
   scroll-behavior: smooth;
@@ -106,7 +104,6 @@ h3 {
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
-  
 }
 
 /* header */
@@ -117,38 +114,38 @@ header {
   padding: 1em;
 }
 
-
 .nav__list {
-    list-style: none;
-    
+  list-style: none;
 }
 
 .nav__list li {
-    display: inline-block;
-    padding: 0em 1.15em;
-  
+  display: inline-block;
+  padding: 0em 1.15em;
 }
 
 .nav__list li a {
-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .nav__list li a:hover {
-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .nav__link {
-    color: inherit;
-    font-weight: var(--fw-reg);
-    font-size: var(--fs-h3);
-    text-decoration: none;
-    
+  color: inherit;
+  font-weight: var(--fw-reg);
+  font-size: var(--fs-h3);
+  text-decoration: none;
 }
 
 .nav__link:hover {
-    color: var(--clr-accent);
+  color: var(--clr-accent);
 }
 
+.active-page {
+  text-decoration: underline var(--clr-accent);
+  font-size: small;
+}
 
 /*  Intro section  */
 
@@ -209,7 +206,6 @@ transition: all 0.3s ease 0s;
   position: relative;
 }
 
-
 .resumes {
   margin-bottom: 4em;
 }
@@ -269,7 +265,6 @@ transition: all 0.3s ease 0s;
   .about-me__img {
     grid-area: img;
     position: relative;
-    
   }
 }
 
@@ -284,7 +279,6 @@ transition: all 0.3s ease 0s;
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  
 }
 
 .section__subtitle--portfolio {
@@ -301,7 +295,6 @@ transition: all 0.3s ease 0s;
 .portfolio__item:focus {
   position: relative;
   z-index: 2;
-  
 }
 
 .portfolio__img:hover,
@@ -346,7 +339,6 @@ transition: all 0.3s ease 0s;
   padding: 0;
 }
 
-
 .social-list__link {
   padding: 0.5em;
   margin: 0 0.5em;
@@ -358,12 +350,10 @@ transition: all 0.3s ease 0s;
   padding: 0 2em 2em;
   max-width: 1000px;
   margin: 0 auto;
-
 }
 
 .individual-portfolio p {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  
 }

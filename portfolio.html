@@ -27,7 +27,7 @@
       <nav class="nav">
         <ul class="nav__list">
           <li>
-            <a href="index.html" class="nav__link">Home</a>
+            <a href="index.html#home" class="nav__link">Home</a>
           </li>
           <li>
             <a href="resume.html#resume" class="nav__link">Resume</a>
@@ -36,7 +36,7 @@
             <a href="aboutme.html#about" class="nav__link">About me</a>
           </li>
           <li>
-            <a href="portfolio.html#portfolio" class="nav__link">Portfolio</a>
+            <a class="active-page" href="portfolio.html#portfolio" class="nav__link">Portfolio</a>
           </li>
           <li>
             <a href="contact.html#contact" class="nav__link">Contact</a>
@@ -45,60 +45,43 @@
       </nav>
     </header>
 
-    <section class="intro">
-      <h1 class="section__title section__title--intro">
-        Responsive grid <strong> Used by grid-areas</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">A responsive grid as project</p>
-      <img src="img/desktop.png" alt="Responsive grid using grid-areas" class="intro__img" />
+    <!-- Portfolio -->
+
+    <section class="my-portfolio" id="portfolio">
+      <h2 class="section__title section__title--portfolio">My Portfolio</h2>
+      <p class="section__subtitle section__subtitle--portfolio">
+        A Small selection of my portfolio
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img
+            src="img/portfolio-01.jpg"
+            alt="Responsive grid using grid-areas"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 02 -->
+
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img
+            src="img/portfolio-02.jpg"
+            alt="A small Profile card by Using Flexbox-items"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 03 -->
+
+        <a href="portfolio-item.html" class="portfolio__item">
+          <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" />
+        </a>
+      </div>
     </section>
-
-    <div class="individual-portfolio">
-      <p>
-        Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae
-        eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius
-        earum?
-      </p>
-      <img src="img/tablet.png" alt="Responsive grid using grid-areas" />
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet
-        tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?
-      </p>
-      <p>
-        Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae
-        eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius
-        earum?
-      </p>
-      
-    </div>
-
-
-    <section class="intro">
-      <h1 class="section__title section__title--intro">
-        A Profile card used by <strong> Flexbox-items</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">A flexbox profile card as project</p>
-      <img src="img/screen.png" alt="profile card used by Flexbox-items" class="intro__img"/>
-    </section>
-
-    <div class="individual-portfolio">
-      <p>
-        Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae
-        eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius
-        earum?
-      </p>
-      
-      <img src="img/screen.png" alt="profile card used by Flexbox-items" />
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet
-        tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?
-      </p>
-      <p>
-        Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae
-        eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius
-        earum?
-      </p>
-    </div>
+    
 
     <!-- Footer -->
     <footer class="footer" id="contact">
