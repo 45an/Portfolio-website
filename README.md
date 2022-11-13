@@ -1,7 +1,7 @@
-# Portfolio-website
+# Portfolio-website-Dynamic
 
 
-Hi this is first my Personal portfolio i have done for an assignment.
+Hi this is My Personal Portfolio Website Which interacts with HTMl, CSS & javaScript, i have done for an assignment.
 
 In the website its easy to navigate around and read about what i do and what project i have done.
 

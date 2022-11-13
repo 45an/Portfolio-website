@@ -10,10 +10,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"/>
+      referrerpolicy="no-referrer"
+    />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,30 +26,31 @@
   </head>
   <body>
     <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
       <nav class="nav">
         <ul class="nav__list">
-          <li>
+          <li class="nav__item">
             <a href="index.html#home" class="nav__link">Home</a>
           </li>
-          <li>
+          <li class="nav__item">
             <a href="resume.html#resume" class="nav__link">Resume</a>
           </li>
-          <li>
+          <li class="nav__item">
             <a href="aboutme.html#about" class="nav__link">About me</a>
           </li>
-          <li>
+          <li class="nav__item">
             <a href="portfolio.html#portfolio" class="nav__link">Portfolio</a>
           </li>
-          <li>
-            <a class="active-page" href="contact.html#contact" class="nav__link">Contact</a>
+          <li class="nav__item">
+            <a class="active-page" href="contact.html#contact" class="nav__link"
+              >Contact</a
+            >
           </li>
         </ul>
       </nav>
     </header>
-
-    
-
-   
 
     <!-- Footer -->
     <footer class="footer" id="contact">
@@ -56,28 +59,43 @@
       >
       <ul class="social-list">
         <li>
-          <a class="social-list__link" href="http://facebook.com" target="_blank">
+          <a
+            class="social-list__link"
+            href="http://facebook.com"
+            target="_blank"
+          >
             <i class="devicon-facebook-plain"></i>
           </a>
         </li>
         <li>
-          <a class="social-list__link" href="https://twitter.com" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://twitter.com"
+            target="_blank"
+          >
             <i class="devicon-twitter-original"></i>
           </a>
         </li>
         <li>
-          <a class="social-list__link" href="https://slack.com/" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://slack.com/"
+            target="_blank"
+          >
             <i class="devicon-slack-plain"></i>
           </a>
         </li>
         <li>
-          <a class="social-list__link" href="https://github.com/45an" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://github.com/45an"
+            target="_blank"
+          >
             <i class="devicon-github-original"></i>
           </a>
         </li>
       </ul>
     </footer>
-
-   
   </body>
+  <script src="index.js"></script>
 </html>

@@ -10,10 +10,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"/>
+      referrerpolicy="no-referrer"
+    />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,13 +26,18 @@
   </head>
   <body>
     <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
       <nav class="nav">
         <ul class="nav__list">
           <li>
             <a href="index.html#home" class="nav__link">Home</a>
           </li>
           <li>
-            <a class="active-page" href="resume.html#resume" class="nav__link">Resume</a>
+            <a class="active-page" href="resume.html#resume" class="nav__link"
+              >Resume</a
+            >
           </li>
           <li>
             <a href="aboutme.html#about" class="nav__link">About me</a>
@@ -51,43 +58,12 @@
       <h2 class="section__title section__title--resume">Resume</h2>
       <div class="resumes">
         <div class="resume">
-          <h3>Delicato Bakverk AB</h3>
-          <p>
-            Started as a baker with high demand on production, being able to
-            deal with stressfull situation and focus on quality.<br />
-            Currently I'm the bakery's evening manager, taking care of the
-            orders, the planning, the on-bobard of new personnel and having part
-            in the the recruitment process.
-          </p>
-        </div>
-
-        <!-- / Education -->
-
-        <div class="resume">
-          <h3>
-            B.SC in Business Adminstration and economics 2019-2022, Sodertorn
-            University
-          </h3>
-          <p>
-            Economics and Business, Bachelor's programme Specialisation
-            Economics.
-          </p>
-        </div>
-
-        <!-- / Voluntary -->
-
-        <div class="resume">
-          <h3>Ledership or Voluntary Work, Nacka Enskilda Gymnaslium 2013</h3>
-          <p>
-            Chairman of the student council in Nacka Enskilda Gymnasium (High
-            School)
-          </p>
+          <section class="work-resume"></section>
+          <section class="education-resume"></section>
         </div>
       </div>
     </section>
-
-  
-
+    
     <!-- Footer -->
     <footer class="footer" id="contact">
       <a href="mailto:muse.yusuf@chasacademy.se" class="footer__link"
@@ -95,28 +71,43 @@
       >
       <ul class="social-list">
         <li>
-          <a class="social-list__link" href="http://facebook.com" target="_blank">
+          <a
+            class="social-list__link"
+            href="http://facebook.com"
+            target="_blank"
+          >
             <i class="devicon-facebook-plain"></i>
           </a>
         </li>
         <li>
-          <a class="social-list__link" href="https://twitter.com" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://twitter.com"
+            target="_blank"
+          >
             <i class="devicon-twitter-original"></i>
           </a>
         </li>
         <li>
-          <a class="social-list__link" href="https://slack.com/" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://slack.com/"
+            target="_blank"
+          >
             <i class="devicon-slack-plain"></i>
           </a>
         </li>
         <li>
-          <a class="social-list__link" href="https://github.com/45an" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://github.com/45an"
+            target="_blank"
+          >
             <i class="devicon-github-original"></i>
           </a>
         </li>
       </ul>
     </footer>
-
-   
   </body>
+  <script src="index.js"></script>
 </html>

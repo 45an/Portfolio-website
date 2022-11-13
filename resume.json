@@ -1,0 +1,24 @@
+{
+    "jobex": "Jobexperience",
+    "eduex": "Educations",
+  "jobexperience": [
+    {
+      "titel": "Baker",
+      "enterprise": "Delicato Bakverk AB",
+      "desc": "Started as a baket with high denmand on production being able to deal with stressfull situation and focus on quality, Currently I'm the bakery's evening manager, taking care of the orders, the planning, the on-bobard of new personnel and having part in the the recruitment process. "
+    }
+  ],
+
+  "education": [
+    {
+      "titel": "Economics",
+      "enterprise": "Sodertorn University",
+      "desc": "Economics and Business Bachelor's programme Specialisation Economics."
+    },
+    {
+      "titel": "Economics",
+      "enterprise": "Nacka Enskola Gymnasium",
+      "desc": "Chairman of the student council in Nacka Enskilda Gymnasium (High School)"
+    }
+  ]
+}

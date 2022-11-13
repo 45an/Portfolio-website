@@ -10,10 +10,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"/>
+      referrerpolicy="no-referrer"
+    />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,21 +26,24 @@
   </head>
   <body>
     <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
       <nav class="nav">
         <ul class="nav__list">
-          <li>
+          <li class="nav__item">
             <a href="index.html" class="nav__link">Home</a>
           </li>
-          <li>
+          <li class="nav__item">
             <a href="resume.html#resume" class="nav__link">Resume</a>
           </li>
-          <li>
+          <li class="nav__item">
             <a href="aboutme.html#about" class="nav__link">About me</a>
           </li>
-          <li>
+          <li class="nav__item">
             <a href="portfolio.html#portfolio" class="nav__link">Portfolio</a>
           </li>
-          <li>
+          <li class="nav__item">
             <a href="contact.html#contact" class="nav__link">Contact</a>
           </li>
         </ul>
@@ -47,56 +52,57 @@
 
     <section class="intro">
       <h1 class="section__title section__title--intro">
-        Responsive grid <strong> Used by grid-areas</strong>
+        A small CodeJam project <strong> Where you can guess the number</strong>
       </h1>
-      <p class="section__subtitle section__subtitle--intro">A responsive grid as project</p>
-      <img src="img/desktop.png" alt="Responsive grid using grid-areas" class="intro__img" />
+      <p class="section__subtitle section__subtitle--intro">
+        A Code Jam project you can play guessing the number 
+      </p>
+      <img
+        src="img/guess-the-number.png"
+        alt="Small CodeJam project i have done in school"
+        class="intro__img"
+      />
     </section>
 
     <div class="individual-portfolio">
-      <p>
-        Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae
-        eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius
-        earum?
-      </p>
-      <img src="img/tablet.png" alt="Responsive grid using grid-areas" />
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet
-        tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?
-      </p>
-      <p>
-        Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae
-        eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius
-        earum?
-      </p>
+     
+      <img src="img/guess-the-number.png" alt="A small gaming project I have done in school" />
       
-    </div>
+      <p>
+        Here is a project called Guess the Number, which involved choosing five different projects.
+        Where I chose the "Guess The number" projects. "Guess The Number" is a project I've done at school, with the help of a few others who helped peer-review the code for me.
+       The projects involve guessing a number five times, if you're wrong, you have to start over. the game is about guessing the right number.
+      </p>
 
+      <a href="https://45an.github.io/Guess-the-number-js/" class="btn" target="_blank">Click to play</a>
+      <a href="https://github.com/45an/Guess-the-number-js" class="btn" target="_blank">Github repo</a>
+   
+    </div>
 
     <section class="intro">
       <h1 class="section__title section__title--intro">
-        A Profile card used by <strong> Flexbox-items</strong>
+        Responsive grid <strong> Used by grid-areas</strong>
       </h1>
-      <p class="section__subtitle section__subtitle--intro">A flexbox profile card as project</p>
-      <img src="img/screen.png" alt="profile card used by Flexbox-items" class="intro__img"/>
+      <p class="section__subtitle section__subtitle--intro">
+        A responsive grid as project
+      </p>
+      <img
+        src="img/desktop.png"
+        alt="Responsive grid using grid-areas"
+        class="intro__img"
+      />
     </section>
+    
 
     <div class="individual-portfolio">
+    
+      <img src="img/tablet.png" alt="Responsive grid using grid-areas" />
+     
       <p>
-        Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae
-        eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius
-        earum?
-      </p>
-      
-      <img src="img/screen.png" alt="profile card used by Flexbox-items" />
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet
-        tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?
-      </p>
-      <p>
-        Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae
-        eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius
-        earum?
+        
+Here is another project I have done in school called Responsive grid
+Used by grid areas. In this project we got to learn different grid temples and make the projects from scratch.
+The only clue we were given was to look at the picture and imitate it.
       </p>
     </div>
 
@@ -107,28 +113,43 @@
       >
       <ul class="social-list">
         <li>
-          <a class="social-list__link" href="http://facebook.com" target="_blank">
+          <a
+            class="social-list__link"
+            href="http://facebook.com"
+            target="_blank"
+          >
             <i class="devicon-facebook-plain"></i>
           </a>
         </li>
         <li>
-          <a class="social-list__link" href="https://twitter.com" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://twitter.com"
+            target="_blank"
+          >
             <i class="devicon-twitter-original"></i>
           </a>
         </li>
         <li>
-          <a class="social-list__link" href="https://slack.com/" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://slack.com/"
+            target="_blank"
+          >
             <i class="devicon-slack-plain"></i>
           </a>
         </li>
         <li>
-          <a class="social-list__link" href="https://github.com/45an" target="_blank">
+          <a
+            class="social-list__link"
+            href="https://github.com/45an"
+            target="_blank"
+          >
             <i class="devicon-github-original"></i>
           </a>
         </li>
       </ul>
     </footer>
-
-   
   </body>
+  <script src="index.js"></script>
 </html>

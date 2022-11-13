@@ -41,20 +41,26 @@
     -->
     <header>
       <!-- navbar -->
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
 
-     <nav>
+      <nav class="nav">
         <ul class="nav__list">
-          <li class="active-page"><a href="index.html#home" class="nav__link">Home</a></li>
-          <li>
+            <li class="nav__item">
+            </li>
+            <a class="active-page" href="index.html#home" class="nav__link">Home</a>
+          </>
+          <li class="nav__item">
             <a href="resume.html#resume" class="nav__link">Resume</a>
           </li>
-          <li>
+          <li class="nav__item">
             <a href="aboutme.html#about" class="nav__link">About me</a>
           </li>
-          <li>
+          <li class="nav__item">
             <a href="portfolio.html#portfolio" class="nav__link">Portfolio</a>
           </li>
-          <li>
+          <li class="nav__item">
             <a href="contact.html#contact" class="nav__link">Contact</a>
           </li>
         </ul>
@@ -79,37 +85,10 @@
       <h2 class="section__title section__title--resume">Resume</h2>
       <div class="resumes">
         <div class="resume">
-          <h3>Delicato Bakverk AB</h3>
-          <p>
-            Started as a baker with high demand on production, being able to
-            deal with stressfull situation and focus on quality.<br />
-            Currently I'm the bakery's evening manager, taking care of the
-            orders, the planning, the on-bobard of new personnel and having part
-            in the the recruitment process.
-          </p>
-        </div>
-
-        <!-- / Education -->
-
-        <div class="resume">
-          <h3>
-            B.SC in Business Adminstration and economics 2019-2022, Sodertorn
-            University
-          </h3>
-          <p>
-            Economics and Business, Bachelor's programme Specialisation
-            Economics.
-          </p>
-        </div>
-
-        <!-- / Voluntary -->
-
-        <div class="resume">
-          <h3>Ledership or Voluntary Work, Nacka Enskilda Gymnaslium 2013</h3>
-          <p>
-            Chairman of the student council in Nacka Enskilda Gymnasium (High
-            School)
-          </p>
+         
+          <section class="work-resume"></section>
+          <section class="education-resume"></section>
+          
         </div>
       </div>
     </section>
@@ -124,16 +103,12 @@
 
       <div class="about-me__text">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Hello, my name is Muse and I am 27 years old. Come with me and get to know me. I've always had an interest in IT but haven't been able to get a hold of it.
+          But this year I got hold of it, which led to me studying to become a Fullstack web developer.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          In my spare time, I train Muay Thai, go to the gym and take a walk in nature.
+          Although I'm not done yet, come back in 2 years and ask me what I'm doing. See you all 👋🏿
         </p>
       </div>
       <img
@@ -228,4 +203,5 @@
       </ul>
     </footer>
   </body>
+  <script src="index.js"></script>
 </html>
