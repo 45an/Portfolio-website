@@ -6,13 +6,6 @@ navToggle.addEventListener("click", () => {
   
 });
 
-/*
-navLinks.forEach(link => {
-  link.addEventListener("click", () => {
-    document.body.classList.remove("nav-open");
-  });
-});
-*/
 
 let url = './resume.json';
 
@@ -49,28 +42,11 @@ async function myResume() {
     educationNote.classList = "education-note";
     document.querySelector(".work").append(jobNote);
     document.querySelector(".study").append(educationNote);
+
+    //import text from JSON
+    
     
 
-    // fix text to do that i need to import data from json
-      /*
-      for (let i = 2; i < data.jobexperience.length; i++) {
-         const workRole = document.createElement("i");
-        const companyTitel = document.createElement("i");
-        const companyDesc = document.createElement("i");
-        workRole.classList = "workrRole";
-        companyTitel.classList = "companyTitel";
-        companyDesc.classList = "companyDesc";
-        document.querySelector(".job-note").append(workRole);
-        document.querySelector(".job-note").append(companyTitel);
-        document.querySelector(".job-note").append(companyDesc);
-        workRole.innerHTML = data.jobexperiance[i].role + "<br>"
-        companyTitel.innerHTML = data.jobexperiance[i].company + "<br>";
-        companyDesc.innerHTML = data.jobexperiance[i].desc + "<br>"
-      
-      }
-      */
-    
-    
           for (let i = 0; i < data.jobexperience.length; i++) {
             const workRole = document.createElement("i");
             const workTitel = document.createElement("i");
