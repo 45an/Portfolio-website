@@ -240,7 +240,7 @@ a {
   bottom: 6px;
 }
 
-.active-page {
+#active-page {
   text-decoration: 3px underline var(--clr-accent);
 }
 
